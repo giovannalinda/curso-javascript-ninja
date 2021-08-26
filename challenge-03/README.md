@@ -203,9 +203,10 @@ person.presentation = function() {
   if(person.walkedHowManyMeters === 1) {
     walkedMeters = 'metro'
   }
-  return 'Olá, eu sou ' + gender + ' ' + person.name + ' ' + person.surname + ', tenho ' + person.age + 'anos, ' + person.height + ', meu peso é ' + person.weight + ' e, só hoje, eu já caminhei ' + person.walkedHowManyMeters + ' ' + walkedMeters + '!'
+  return 'Olá, eu sou ' + gender + ' ' + person.name + ' ' + person.surname + ', tenho ' + person.age + 'anos, ' + person.height + 'm' + ', meu peso é ' + person.weight + 'kg' + ' e, só hoje, eu já caminhei ' + person.walkedHowManyMeters + ' ' + walkedMeters + '!'
 }
 
 // Agora, apresente-se ;)
-Olá, eu sou a Giovanna Linda, tenho 17 anos, 1.55, meu peso é 56 e, só hoje, eu já caminhei 160 metros!
+person.presentation()
+// Olá, eu sou a Giovanna Linda, tenho 17 anos, 1.55m, meu peso é 56kg e, só hoje, eu já caminhei 160 metros!
 ```
