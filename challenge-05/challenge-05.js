@@ -56,19 +56,19 @@ os livros.
 */
 function book(bookName) {
   var books = {
-  'Segredos da mente milionária' {
+  'Segredos da mente milionária': {
     numberPages: 176,
     author: 'T. Harv Eker',
     publishingCompany: 'Sextante'
     },
       
-   'Sherlock Holmes' {
+   'Sherlock Holmes': {
     numberPages: 1808,
     author: 'Arthur Conan Doyle',
     publishingCompany: 'Principis'
     },
       
-   'Harry Potter' {
+   'Harry Potter': {
     numberPages: 2927,
     author: 'J.K. Rowling',
     publishingCompany: 'Bloomsbury Publishing Plc'
