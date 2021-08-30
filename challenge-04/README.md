@@ -67,7 +67,7 @@ carro.mudarCor = function(cor) {
 /*
 Crie um método chamado `obterCor`, que retorne a cor do carro.
 */
-carro.obterCor = fucntion(cor) {
+carro.obterCor = function(cor) {
   return carro.cor
 }
 
